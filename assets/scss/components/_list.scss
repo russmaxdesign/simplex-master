@@ -95,7 +95,8 @@
 // list-pagination
 
 .list-pagination {
-  overflow: hidden;
+  @include clearfix;
+
   padding: 0;
   list-style: none;
 }

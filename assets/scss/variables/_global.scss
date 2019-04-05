@@ -17,7 +17,7 @@ $line-height-lg:               1.5;
 // colors
 
 $primary-color:                #00709B;
-$secondary-color:              #CB0067;
+$secondary-color:              #b2005a;  // old color: #CB0067
 
 
 // base colors
@@ -34,6 +34,7 @@ $link-color-hover:             darken($link-color, 10%);
 $link-color-focus:             $black;
 $link-color-active:            #8C0000;
 $link-focus-outline:           2px dotted $black;
+$link-focus-outline-reverse:   2px dotted $white;
 
 
 // forms
