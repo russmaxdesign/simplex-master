@@ -1,0 +1,37 @@
+.input__control {
+  font-size: $font16;
+}
+
+.input__control:focus {
+  outline: $link-focus-outline;
+}
+
+
+// content
+
+.input__content {
+  display: block;
+  padding-bottom: $label-space;
+}
+
+
+// disabled, readonly
+
+.input--disabled .input__content {
+  color: $disabled-color;
+}
+
+
+// invalid
+
+.isInvalid .input__control {
+  border: 1px solid $isinvalid-color;
+  color: $isinvalid-color;
+}
+
+
+// hidden
+
+.input__content--hidden {
+  @include hidden;
+}

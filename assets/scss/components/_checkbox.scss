@@ -1,0 +1,74 @@
+// parent
+
+.input-checkbox {
+  margin-bottom: .25em;
+}
+
+
+// disabled
+
+.input-checkbox--disabled {
+  cursor: not-allowed;
+  color: $disabled-color;
+}
+
+
+// control
+
+.input-checkbox__control::after {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 1.2em;
+  height: 1.2em;
+  border: 2px solid $input-border-color;
+  border-radius: .2em;
+  content: '';
+  background: $white;
+}
+
+.input-checkbox__control:focus {
+  outline: none;
+}
+
+.input-checkbox__control:focus::after {
+  outline: $link-focus-outline;
+}
+
+.input-checkbox__control:checked::after {
+  border: 2px solid $link-color;
+  background-color: $link-color;
+  background-image: url(../img/icon-tick-white.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.isInvalid .input-checkbox__control::after {
+  border-color: $red;
+}
+
+.isInvalid .input-checkbox__control:checked::after {
+  border: 2px solid $link-color !important;
+}
+
+.input-checkbox--disabled .input-checkbox__control::after {
+  border-color: $gray15;
+  cursor: not-allowed;
+}
+
+
+// content
+
+.input-checkbox__content {
+  position: relative;
+  top: .2em;
+  left: .4em;
+  display: inline-block;
+}
+
+
+// hidden
+
+.input-checkbox__content--hidden {
+  @include hidden;
+}

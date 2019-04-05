@@ -1,0 +1,119 @@
+.list-unstyled,
+.list-navigation,
+.list-inline,
+.list-inline-slash,
+.list-inline-greater,
+.list-inline-pipe,
+.list-bullet,
+.list-contents {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+// navigation
+
+.list-navigation {
+  border-top: 1px solid #ddd;
+  margin-bottom: 2em;
+}
+
+.list-navigation a {
+  display: block;
+  border-bottom: 1px solid #ddd;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.list-navigation b {
+  display: block;
+  border-bottom: 1px solid #ddd;
+  padding: .5em;
+  background: $gray5;
+}
+
+.list-navigation a:link,
+.list-navigation a:visited {
+  color: $link-color;
+}
+
+.list-navigation a:focus,
+.list-navigation a:hover {
+  color: $black;
+  background: $gray5;
+}
+
+
+// inline
+
+.list-inline li,
+.list-inline-slash li,
+.list-inline-greater li,
+.list-inline-pipe li {
+  display: inline-block;
+}
+
+.list-inline li {
+  margin: 0 1em 0 0;
+}
+
+
+// slash, greater, pipe
+
+.list-inline-slash li:before,
+.list-inline-greater li:before,
+.list-inline-pipe li:before {
+  padding: 0 10px 0 5px;
+  color: $gray25;
+}
+
+.list-inline-slash li:before {
+  content: '/';
+}
+
+.list-inline-greater li:before {
+  content: '>';
+}
+
+.list-inline-pipe li:before {
+  content: '|';
+}
+
+.list-item-active {
+  color: $gray45;
+}
+
+.list-inline-slash li:first-child:before,
+.list-inline-greater li:first-child:before,
+.list-inline-pipe li:first-child:before {
+  padding: 0;
+  content: '';
+}
+
+
+// list-pagination
+
+.list-pagination {
+  overflow: hidden;
+  padding: 0;
+  list-style: none;
+}
+
+.list-pagination li {
+  display: inline;
+}
+
+.list-pagination a {
+  float: left;
+  border: 1px solid $gray15;
+  border-radius: .2em;
+  margin: 0 3px 0 0;
+  padding: .4em .7em .3em;
+  text-decoration: none;
+}
+
+.list-pagination .list-item-active a {
+  color: $gray60;
+  background-color: $gray10;
+}
