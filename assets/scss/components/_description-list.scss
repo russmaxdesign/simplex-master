@@ -1,11 +1,12 @@
 .description-list__inline,
-.description-list__inline-border,
-.description-list__inline-aligned {
+.description-list__border,
+.description-list__aligned {
   margin: 1em 0 1.5em;
 
   dt {
     float: left;
     width: 12em;
+    font-weight: normal;
   }
 
   dd {
@@ -21,8 +22,8 @@
   }
 }
 
-.description-list__inline-border,
-.description-list__inline-aligned {
+.description-list__border,
+.description-list__aligned {
   border-top: 1px solid $gray10;
   padding-top: .5em;
 
@@ -33,7 +34,7 @@
   }
 }
 
-.description-list__inline-aligned {
+.description-list__aligned {
   border-top: 1px dotted $gray20;
 
   dt {

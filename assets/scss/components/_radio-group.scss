@@ -1,3 +1,8 @@
+// legend
+
+.radio-group legend {
+}
+
 // unordered list
 
 .radio-group ul {
@@ -19,7 +24,7 @@
   position: relative;
   z-index: 1;
   top: -.1em;
-  left: -.2em;
+  left: -.1em;
   display: block;
   width: 1.25em;
   height: 1.2em;
@@ -63,26 +68,13 @@
   color: $disabled-color;
 }
 
+.radio-group--disabled  .radio-group__control::after {
+  background: $gray10;
+}
+
 
 // invalid
 
-.isInvalid .radio-group__content {
-  color: $isinvalid-color;
-}
-
-
-// required
-
-.radio-group--required .radio-group__content:after {
-  display: inline-block;
-  padding: 0 0 0 .2em;
-  content: '*';
-  color: $required-color;
-}
-
-
-// hidden
-
-.radio-group__content--hidden {
-  @include hidden;
+.isInvalid .radio-group__control::after {
+  border: 2px solid $isinvalid-color;
 }
