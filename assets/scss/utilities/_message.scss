@@ -30,3 +30,14 @@
   color: $gray60;
   font-size: $font14;
 }
+
+
+// required
+
+.message-required {
+  display: inline-block;
+  margin-left: .3em;
+  color: $red;
+  font-size: $font14;
+  font-weight: normal;
+}

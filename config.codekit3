@@ -399,28 +399,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/assets/js/prism-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/prism-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/assets/js/prism.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/prism-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
 	"/assets/js/respond.min-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -1351,19 +1329,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/assets/scss/utilities/_required.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/scss/utilities/_required.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/assets/scss/utilities/_row-padding.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1503,14 +1468,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/LICENCE",
-		"oF": 0
-		},
-	"/README.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/README.html",
 		"oF": 0
 		},
 	"/README.md": {
