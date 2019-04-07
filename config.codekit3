@@ -377,50 +377,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"/assets/img/image-15x.jpg": {
-		"ft": 16384,
-		"iS": 106088,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/image-15x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/image-1x.jpg": {
-		"ft": 16384,
-		"iS": 49776,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/image-1x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/image-2x.jpg": {
-		"ft": 16384,
-		"iS": 176549,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/image-2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/image-3x.jpg": {
-		"ft": 16384,
-		"iS": 379765,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/image-3x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/assets/js/html5shiv.min-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -572,6 +528,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/scss/components/_flag.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/assets/scss/components/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/scss/components/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1536,6 +1505,14 @@
 		"oAP": "/LICENCE",
 		"oF": 0
 		},
+	"/README.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/README.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1554,6 +1531,22 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/simplex-master.sublime-project": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/simplex-master.sublime-project",
+		"oF": 0
+		},
+	"/simplex-master.sublime-workspace": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/simplex-master.sublime-workspace",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -1565,7 +1558,8 @@
 	"displayValue": "simplex-master",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-leo",
-	"iconImageWasSetByUser": 0
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 576287293.913674
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
